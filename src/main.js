@@ -3,6 +3,11 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+import './style.css'
+
+import RequestPlugin from "./plugin/RequestPlugin"
+Vue.use(RequestPlugin)
+
 Vue.config.productionTip = false
 
 new Vue({
